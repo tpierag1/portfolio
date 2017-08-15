@@ -9,20 +9,24 @@ body {
   font-family: Roboto;
   font-size: 14px;
 }
-p{
+
+p {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 100;
     padding-left: 2%;
 }
-img{
+
+img {
     object-fit: contain;
 }
-.container{
+
+.container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+
 .header-container {
     width: 100%;
     display: flex;
@@ -32,62 +36,62 @@ img{
     background-color: black;
     opacity: 0.85;
 }
-.header-logo{
-    width:11%;
+
+.header-logo {
+    width: 11%;
     padding-top: 1%;
     padding-left: 1%;
 }
-.header-title-box{
+
+.header-title-box {
     width: 90%;
 }
+
 .header-title {
     font-weight: 200;
     font-size: 1.5em;
     color: lime;
     padding-left: 1%;
 }
-.header-subtitle{
-    font-weight: 200;
-    font-size: 1.5em;
-    color: lime;
-    vertical-align: top;
-    padding-left: 70%;
-}
-.center-image-pad{
-    width: 10%;
-}
-.center-image{
+
+.center-image {
     width: 100%;
     padding-top: 1%;
     overflow: hidden;
     justify-content: center;
 }
-.center-image:hover{
+
+.center-image:hover {
     opacity: 0.5;
     filter: alpha(opacity=30);
 }
-.box{
-    width:33%;
+
+.box {
+    width: 33%;
 }
-.title-text{
+
+.title-text {
     padding-top: 3%;
     padding-left: 2%;
     font-weight: 300;
     font-size: 2em;
 }
-.project-container{
+
+.project-container {
     text-align: center;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-.project-logo{
+
+.project-logo {
     min-width: 48px;
     width: 30%;
     margin: 1.5%;
     overflow: hidden;
 }
-.project-logo:hover{
+
+.project-logo:hover {
     opacity: 0.5;
     filter: alpha(opacity=30);
 }
